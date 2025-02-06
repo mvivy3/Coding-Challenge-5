@@ -110,3 +110,13 @@ let discountedPrice = applyDiscount(300, 25);
 
 // Log the result
 console.log(`Discounted price: $${discountedPrice}`);
+
+
+// Task 10: Loyalty Points
+
+// Write an arrow function
+const calculatePoints = (purchaseAmount) => purchaseAmount / 10; // Return 1 point per $10 spend
+let points = calculatePoints(350);
+
+// Log the result
+console.log(`Earned points: ${points}`);
