@@ -25,3 +25,20 @@ order.displayOrder = function() {
 order.displayOrder();
 // Log the order details
 console.log(order);
+
+
+// Task 3: Shopping Cart
+
+// Declare an array cartItems with three product names
+let cartItems = ["Dress", "Phone case", "Makeup"];
+//Add a new product to the cart using .push()
+cartItems.push("Headphones");
+// Remove the first item using .shift()
+cartItems.pop();
+// Add an item at the beginning using .unshift()
+cartItems.unshift("Flowers");
+// Remove the first item using .shift()
+cartItems.shift()
+
+//Log the final array
+console.log(cartItems)
