@@ -98,3 +98,15 @@ let tax = calculateTax(500, 0.10);
 
 // Log using a template literal
 console.log(`Calculated Tax: $${tax}`);
+
+
+// Task 9: Discount Application
+
+// Declare a function expression and return the discounted price
+const applyDiscount = function(price, discountPercent) {
+    return price - (price * discountPercent / 100);
+}; 
+let discountedPrice = applyDiscount(300, 25);
+
+// Log the result
+console.log(`Discounted price: $${discountedPrice}`);
