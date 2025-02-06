@@ -86,3 +86,15 @@ const result = customers.find(customer => customer === "Charlie");
 
 // Log the result
 console.log(result);
+
+
+// Task 8: Tax Calculation
+
+// Write a function and return the calculated tax
+function calculateTax(amount, taxRate) {
+    return amount * taxRate
+}
+let tax = calculateTax(500, 0.10);
+
+// Log using a template literal
+console.log(`Calculated Tax: $${tax}`);
