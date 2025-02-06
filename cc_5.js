@@ -42,3 +42,14 @@ cartItems.shift()
 
 //Log the final array
 console.log(cartItems)
+
+
+// Task 4: Price Adjustments
+
+// Declare an array 
+let prices = [100, 200, 300]
+// Use the .map() method to apply a 10% discount to each price
+let discountedPrices = prices.map(price => price * 0.9);
+
+// Log the new discounted prices
+console.log("Discounted Prices: ", discountedPrices);
